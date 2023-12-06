@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops Store</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="icon" type="image/x-icon" href="Image/favicon-32x32.png">
+    <style>
+        .flexc {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 30px;
+            padding: 30px;
+            box-sizing: border-box;
+            justify-content: center;
+            text-align: center;
+        }
+        .flexc > .item1 {
+            flex-basis: 40%;
+            text-align: center;
+        }
+        .flexc > .item2 {
+            flex-basis: 60%;
+            font-size: 20px;
+        }
+        .flexc2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 30px;
+            padding: 30px;
+            box-sizing: border-box;
+            justify-content: center;
+            text-align: center;            
+        }
+        .flexc2 > .div1 {
+            flex-basis: 40%;
+            text-align: center;
+        }
+        .flexc2 > .div2 {
+            flex-basis: 60%;
+            font-size: 20px;
+        }
+        img {
+            width: 500px;
+            height: 450px;
+            border-radius: 20px;    
+        }
+        .img1 {
+            width: 50px;
+            height: 50px;
+            margin-top: 10px;
+        }
+        .button {
+            font-size: 15px;
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 10px;
+           letter-spacing: 1px;
+        }
+        .button:hover {
+            background-color: #c94f4f;
+            transition: 0.4 ease;
+        }
+               
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <div class="logo">
+                SHELBYX
+            </div>
+            <ul>
+                <li><a href="web.pbl.html">Home</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="#">Types</a>
+                    <ul>
+                        <li><a href="gaming.html">Gaming Laptops</a></li>
+                        <li><a href="business_laptops.html">Business Laptops</a></li>
+                        <li><a href="accessories.html">Accessoires</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <br><br>
+    <h1>New Arrival</h1>
+    <section class="flexc">
+        <div class="item1">
+            <a href="payment.html"><img src="Image/A15.png" alt="a15"></a>
+        </div>
+
+        <div class="item2">
+            <h3>Asus TUF A15</h3>
+            <br><br>
+            <p>
+               Modal - <b>Asus TUF Gaming A15</b>
+            </p>
+            <br>
+            <p>
+                CPU - <b>AMD Ryzen 9 -7940HS</b>
+            </p>
+            <br>
+            <p>
+                Ram - <b>16GB</b>
+            </p>
+            <br>
+            <p>
+                SSD - <b>1TB PCle NVMe M.2 </b>
+            </p>
+            <br>
+            <p>
+                Graphic Card - <b>NVIDIA RTX 4070 8GB</b>
+            </p>
+            <br>
+            <p>
+                Screen Size - <b>15.6-inch WQHD 2K 165Hz display</b>
+            </p>
+        </div>
+    </section>
+    <section class="flexc">
+        <div class="item1">
+            <a href="payment.html"><img src="Image/MicrosoftTeams-image (42).png" alt="a15"></a>
+        </div>
+
+        <div class="item2">
+            <h3>Lenovo ThinkBook 15 G3</h3>
+            <br><br>
+            <p>
+               Modal - <b>Lenovo ThinkBook 15 G3</b>
+            </p>
+            <br>
+            <p>
+                CPU - <b>Intel Core i3-6100U 2.0GHz</b>
+            </p>
+            <br>
+            <p>
+                Ram - <b>8GB</b>
+            </p>
+            <br>
+            <p>
+                SSD - <b>256GB PCle NVMe M.2 </b>
+            </p>
+            <br>
+            <p>
+                Graphic Card - <b>NVIDIA RTX 4070 8GB</b>
+            </p>
+            <br>
+            <p>
+                Screen Size - <b>15.6-inch Full HD 60HZ</b>
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="web.pbl.html">Home</a></li>
+                        <li><a href="review.html">Review</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Types</h4>
+                    <ul>
+                        <li><a href="gaming.html">Gaming Laptops</a></li>
+                        <li><a href="business_laptops.html">Business Laptops</a></li>
+                        <li><a href="accessories.html">Accessoires</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacts Us</h4>
+                    <ul>
+                        <li><a href="#">09-957887127</a></li>
+                        <li><a href="#">09-402578145</a></li>
+                        <li><a href="#">Email - shelbyX@gmail.com</a></li>
+                    </ul>
+                </div>
+                <labe style="color: white;">FeedBack</label><br>
+                    <textarea name="Des" rows="7" cols="35"></textarea><br>
+                    <button type="submit" class="button" onclick="alert('FeedBack Sent')"><a href="web.pbl.html">Submit</a></button>
+            </div>
+        </div>
+   </footer>
+   <p class="f">Copyright &copy; 2023. All Rights resevered. Desing By ShelbyX</p>
+
+</body>
+</html>
